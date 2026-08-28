@@ -1,28 +1,27 @@
 # 👋 Hi, I'm Kishore M
 
-### 🤖 AI/ML Engineer • 💻 Software Developer • 🌐 Full-Stack Developer
+### 🎓 Computer Science & Design Student | 💻 Software Developer | 🌐 Full-Stack Developer
 
-I'm a Computer Science and Design student passionate about **Artificial Intelligence, Machine Learning, Full-Stack Development, and building practical software solutions**.
-
-I enjoy turning ideas into real-world applications using modern technologies and continuously exploring new areas of software engineering and AI.
+I'm a **Computer Science and Design student** passionate about software development, artificial intelligence, web technologies, and building practical real-world applications.
 
 ---
 
 ## 🚀 About Me
 
-* 🎓 B.E. Computer Science and Design student
-* 🤖 Interested in **AI/ML, Generative AI, Computer Vision & RAG**
-* 💻 Full-Stack Developer
-* ☕ Completed a **Full-Stack Java Internship at Appin Technology**
-* 🏆 **Hackathon Winner — Sri Sakthi College**
+* 🎓 B.E. Computer Science and Design — Erode Sengunthar Engineering College
+* 💻 Software Developer & Full-Stack Developer
+* ☕ Full-Stack Java Intern at Appin Technology
+* 🤖 Interested in Artificial Intelligence, Machine Learning & Generative AI
+* 🌐 Interested in Full-Stack Web Development
+* 🏆 Hackathon Winner — Sri Sakthi College
 * 🧩 Solved **250+ programming problems**
-* 🥈 CodeChef **Problem Solver Silver Badge**
-* 🔭 Currently exploring AI-powered applications and scalable web systems
-* 💡 Love building practical projects that solve real-world problems
+* 🥈 CodeChef Problem Solver Silver Badge
+* 🔭 Building practical software and AI-powered applications
+* 📚 Always learning new technologies
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ My Skills
 
 ### 👨‍💻 Programming Languages
 
@@ -30,14 +29,14 @@ I enjoy turning ideas into real-world applications using modern technologies and
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-### 🌐 Frontend Development
+### 🌐 Frontend
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 
-### 🤖 AI / Machine Learning
+### 🤖 AI / ML
 
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge)
@@ -45,7 +44,7 @@ I enjoy turning ideas into real-world applications using modern technologies and
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-8E44AD?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-00A67E?style=for-the-badge)
 
-**AI/ML Skills:**
+**AI/ML Concepts**
 
 * Machine Learning
 * Deep Learning
@@ -55,7 +54,7 @@ I enjoy turning ideas into real-world applications using modern technologies and
 * Retrieval-Augmented Generation (RAG)
 * TF-IDF Vectorization
 * Cosine Similarity
-* CNN-based Image Classification
+* CNN Image Classification
 
 ### ⚙️ Backend & Databases
 
@@ -66,22 +65,60 @@ I enjoy turning ideas into real-world applications using modern technologies and
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
 
-**Backend Skills:**
-
-* FastAPI
-* Flask
-* Django
-* REST API Development
-* SQL
-* MySQL
-* MongoDB
-
-### 🔧 Tools & Technologies
+### 🔧 Tools & APIs
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST%20API-02569B?style=for-the-badge)
+
+---
+
+## 🚀 Featured Projects
+
+### 🧵 WeaveCot — Handloom Sarees E-Commerce Platform
+
+A full-stack e-commerce platform connecting verified handloom weavers with customers.
+
+**Features:**
+
+* 🔐 Authentication
+* 🛍️ Product Management
+* 🛒 Shopping Cart
+* 💳 Payments
+* 👨‍💼 Admin Functionality
+* 🧑‍🎨 Weaver Onboarding
+* 🔌 REST APIs
+* 🍃 MongoDB
+
+---
+
+### 📄 AI PDF Chatbot — RAG
+
+An AI-powered chatbot that allows users to upload PDFs and ask questions in natural language.
+
+**Technologies & Concepts:**
+
+* LLM-powered pipeline
+* Document Chunking
+* TF-IDF Vectorization
+* Cosine Similarity
+* REST APIs
+* Natural Language Question Answering
+
+---
+
+### 🌱 Plant Disease Detection System
+
+A computer vision application for detecting plant diseases from leaf images.
+
+**Technologies:**
+
+* Python
+* TensorFlow
+* OpenCV
+* CNN
+* Image Classification
 
 ---
 
@@ -91,60 +128,12 @@ I enjoy turning ideas into real-world applications using modern technologies and
 
 **15-Day Internship**
 
-* Gained practical experience in full-stack Java application development.
-* Worked with Java, HTML, CSS, JavaScript and React.js.
-* Practiced responsive UI development.
-* Learned frontend and application development workflows.
-* Worked with frontend components and application logic.
-
----
-
-## 🚀 Featured Projects
-
-### 🧵 WeaveCot — Handloom Sarees E-Commerce Platform
-
-A full-stack e-commerce platform connecting **verified handloom weavers with customers**.
-
-**Features:**
-
-* 🔐 User authentication
-* 🛍️ Product management
-* 🛒 Shopping cart
-* 💳 Payment functionality
-* 👨‍💼 Admin functionality
-* 🧑‍🎨 Weaver onboarding
-* 🔌 REST APIs
-* 🍃 MongoDB-based data management
-
----
-
-### 📄 AI PDF Chatbot using RAG
-
-An AI-powered chatbot that allows users to **upload PDFs and ask questions using natural language**.
-
-**Technologies & Concepts:**
-
-* 🤖 LLM-powered pipeline
-* 📚 Document processing
-* ✂️ Document chunking
-* 🔎 TF-IDF vectorization
-* 📐 Cosine similarity
-* 🔌 REST APIs
-* 💬 Natural-language question answering
-
----
-
-### 🌱 Plant Disease Detection System
-
-A computer vision system for detecting **plant diseases from leaf images**.
-
-**Technologies:**
-
-* 🐍 Python
-* 🧠 Convolutional Neural Networks (CNN)
-* 🔥 TensorFlow
-* 👁️ OpenCV
-* 🖼️ Image classification
+* Java application development
+* HTML & CSS
+* JavaScript
+* React.js
+* Responsive UI development
+* Frontend and application logic
 
 ---
 
@@ -156,11 +145,11 @@ A computer vision system for detecting **plant diseases from leaf images**.
 
 🥈 **CodeChef Problem Solver Silver Badge**
 
-💻 GitHub repositories focused on **Python, AI/ML and Software Development**
+💻 **GitHub repositories focused on Python, AI/ML & Software Development**
 
 ---
 
-## 📜 Certifications & Training
+## 📜 Certifications
 
 * ☁️ Oracle Cloud Infrastructure 2025 — Oracle
 * 📊 Introduction to Data Science — Infosys
@@ -173,70 +162,70 @@ A computer vision system for detecting **plant diseases from leaf images**.
 
 ---
 
-## 📚 Currently Learning
+# 📊 GitHub Stats
+
+![](https://github-readme-stats.shion.dev/api?username=kishore8807\&theme=shadow_blue\&hide_border=true\&include_all_commits=false\&count_private=false)
+
+<br/>
+
+![](https://streak-stats.demolab.com/?user=kishore8807\&theme=shadow_blue\&hide_border=true)
+
+<br/>
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=kishore8807\&theme=shadow_blue\&hide_border=true\&include_all_commits=false\&count_private=false\&layout=compact)
+
+---
+
+## 📈 GitHub Activity
+
+<p align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kishore8807\&theme=tokyo-night)
+
+</p>
+
+---
+
+## 🎯 Current Focus
 
 ```text
-Artificial Intelligence
-Machine Learning
-Deep Learning
-Generative AI
-RAG Systems
-Computer Vision
-Full-Stack Development
-REST API Development
-Cloud Technologies
-Software Engineering
+💻 Software Development
+🌐 Full-Stack Development
+🤖 Artificial Intelligence
+🧠 Machine Learning
+✨ Generative AI
+👁️ Computer Vision
+📚 Data Structures & Algorithms
+☁️ Cloud Technologies
+🔌 REST API Development
 ```
-
----
-
-## 🎯 Career Interests
-
-I'm interested in opportunities related to:
-
-* 🤖 AI/ML Engineer
-* 💻 Software Developer
-* 🌐 Full-Stack Developer
-* 🧠 Generative AI Developer
-* 👁️ Computer Vision Developer
-* ⚙️ Backend Developer
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kishore8807&show_icons=true&theme=tokyonight" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishore8807&layout=compact&theme=tokyonight" height="170"/>
-</p>
-
----
-
-## 🔥 GitHub Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kishore8807&theme=tokyonight" />
-</p>
 
 ---
 
 ## 🤝 Connect With Me
 
-<p align="left">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+<p align="center">
+
+<a href="https://github.com/kishore8807">
+<img src="https://img.shields.io/badge/GitHub-kishore8807-181717?style=for-the-badge&logo=github"/>
+</a>
+
 </p>
 
 ---
 
-<p align="center">
-  <b>💡 Build • Learn • Innovate • Repeat 🚀</b>
-</p>
+## 👀 Profile Views
+
+[![](https://komarev.com/ghpvc/?username=kishore8807\&icon=0\&color=0)](https://visitcount.itsvg.in)
+
+---
 
 <p align="center">
-  ⭐ Feel free to explore my repositories and projects!
+
+### 💡 Learn • Build • Innovate • Repeat 🚀
+
+⭐ **Thanks for visiting my profile!**
+
 </p>
+
+<!-- Proudly created and customized for Kishore M -->
