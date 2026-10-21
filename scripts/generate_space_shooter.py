@@ -47,8 +47,12 @@ def get_contributions():
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     cells = {}
-    # GitHub renders contribution days as table cells (<td>), not SVG rects.
-    # Counts may be in the cell's tooltip rather than a data-count attribute.
+    # GitHub renders contribution days as table cells (<td>), with tooltips
+    # commonly placed as sibling elements and linked by the cell's id.
+    tooltip_text = {
+        tip.get("for"): tip.get_text(" ", strip=True)
+        for tip in soup.select("tool-tip[for]")
+    }
     for cell in soup.select("[data-date][data-level]"):
         day = cell.get("data-date")
         level = cell.get("data-level")
@@ -60,20 +64,21 @@ def get_contributions():
         except (TypeError, ValueError):
             continue
 
-        count_text = cell.get("data-count") or cell.get("aria-label") or ""
-        if not count_text:
-            tooltip = cell.find("tool-tip")
-            if tooltip:
-                count_text = tooltip.get_text(" ", strip=True)
+        count_text = (
+            cell.get("data-count")
+            or cell.get("aria-label")
+            or tooltip_text.get(cell.get("id"), "")
+        )
         match = re.search(r"(\d[\d,]*)\s+contributions?", count_text, re.IGNORECASE)
         if match:
             count = int(match.group(1).replace(",", ""))
         elif re.search(r"no contributions", count_text, re.IGNORECASE):
             count = 0
+        elif parsed_level == 0:
+            count = 0
         else:
-            # The real intensity level still identifies whether this day is active.
-            # Use a positive marker only when GitHub exposes no numeric tooltip count.
-            count = 1 if parsed_level > 0 else 0
+            # Keep the true intensity level; do not invent an exact count.
+            count = 0
         cells[parsed_day] = (count, parsed_level)
     if len(cells) < 300:
         raise RuntimeError(
@@ -116,7 +121,7 @@ def main():
     targets = [
         (day, contributions.get(day, (0, 0))[0], xy)
         for day, xy in cell_xy.items()
-        if contributions.get(day, (0, 0))[0] > 0
+        if contributions.get(day, (0, 0))[1] > 0
     ]
     if not targets:
         raise RuntimeError("No contribution squares with activity were found; no animation generated.")
