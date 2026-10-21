@@ -178,11 +178,16 @@ A computer vision application for detecting plant diseases from leaf images.
 
 ## 📈 GitHub Activity
 
+## 🚀 Space Shooter Contribution Mission
+
 <p align="center">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=kishore8807\&theme=tokyo-night)
+<img src="./assets/space-shooter.gif" alt="Animated space shooter over real GitHub contribution activity" width="100%" />
 
 </p>
+
+---
+
 
 ---
 
