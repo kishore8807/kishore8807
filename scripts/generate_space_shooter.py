@@ -47,15 +47,34 @@ def get_contributions():
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     cells = {}
-    for rect in soup.select("rect[data-date]"):
-        day = rect.get("data-date")
-        count = rect.get("data-count")
-        level = rect.get("data-level")
-        if day and count is not None:
-            try:
-                cells[date.fromisoformat(day)] = (int(count), max(0, min(4, int(level or 0))))
-            except ValueError:
-                continue
+    # GitHub renders contribution days as table cells (<td>), not SVG rects.
+    # Counts may be in the cell's tooltip rather than a data-count attribute.
+    for cell in soup.select("[data-date][data-level]"):
+        day = cell.get("data-date")
+        level = cell.get("data-level")
+        if not day or level is None:
+            continue
+        try:
+            parsed_day = date.fromisoformat(day)
+            parsed_level = max(0, min(4, int(level)))
+        except (TypeError, ValueError):
+            continue
+
+        count_text = cell.get("data-count") or cell.get("aria-label") or ""
+        if not count_text:
+            tooltip = cell.find("tool-tip")
+            if tooltip:
+                count_text = tooltip.get_text(" ", strip=True)
+        match = re.search(r"(\d[\d,]*)\s+contributions?", count_text, re.IGNORECASE)
+        if match:
+            count = int(match.group(1).replace(",", ""))
+        elif re.search(r"no contributions", count_text, re.IGNORECASE):
+            count = 0
+        else:
+            # The real intensity level still identifies whether this day is active.
+            # Use a positive marker only when GitHub exposes no numeric tooltip count.
+            count = 1 if parsed_level > 0 else 0
+        cells[parsed_day] = (count, parsed_level)
     if len(cells) < 300:
         raise RuntimeError(
             f"Could not read enough real contribution cells (found {len(cells)}). "
